@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Popup</title>
+</head>
+<body> 
+
+    <h2>Enter Classes and Registration Time</h2>
+    <div id="mainClassesDiv">
+        <form id="classesform">
+            <label for="fclass">Input Class ID Numbers:</label><br>
+            <input type="text" id="fclass" name="fclass"> <br>
+
+            <button type="submit" id="button3">Submit Class ID</button>
+        </form> 
+
+        <form id="enterTime">
+            <label for="fclasstime">Input Registration Time:</label><br>
+            <input type="time" id="fclasstime" name="fclasstime"> <br>
+
+            <button type="button" id="button4">Submit Registration Time</button>
+        </form>
+        
+        <h2>Classes List:</h2>
+        <ul id="classeslist"></ul>
+    </div>
+
+    <h2>Additional Functions</h2>
+    <div id="additionalFuncDiv">
+        <button type="button" id="mainsubmit">refresh page once</button>
+        <button type="button" id="refreshbutton">continual refresh</button>
+
+        <form id="searchform">
+            <label for="fsearch">Input What to Search:</label><br>
+            <input type="text" id="fsearch" name="fsearch"> <br>
+
+            <label for="ftime">Input Time:</label><br>
+            <input type="time" id="ftime" name="ftime"> <br>
+
+            <button type="submit" id="button2">Search Amazon</button>
+
+        </form>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

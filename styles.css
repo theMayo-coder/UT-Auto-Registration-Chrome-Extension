@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(249, 201, 111);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+button {
+    padding: 3px 3px;
+    margin-top: 5px;
+}
+
+div.listElementDiv {
+    background: #b18c25;
+    color: white;
+    padding: 5px 5px;
+    transition: 0.3s;
+}
+
+div.listElementDiv:hover {
+    background: #765b10;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+li {
+    margin: 8px 10px;
+}
+
+label {
+    padding-top: 10px;
+}
+
+#mainClassesDiv {
+    margin: 10px 0px;
+    padding: 5px;
+    background-color: rgb(197, 174, 134);
+}
+
+#additionalFuncDiv {
+    margin: 10px 0px;
+    padding: 5px;
+    background-color: rgb(255, 237, 206);
+}
