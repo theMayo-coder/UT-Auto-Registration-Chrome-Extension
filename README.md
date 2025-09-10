@@ -1,5 +1,5 @@
 # UT-Auto-Registration-Chrome-Extension
-UT Auto Registration Chrome Extension (used for 
+UT Auto Registration Chrome Extension (not allowed by UT registration policy but made for practice)
 
 ## Features
 - Includes auto-reloading page at registration time
